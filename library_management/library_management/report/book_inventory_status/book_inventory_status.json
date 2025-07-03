@@ -1,0 +1,12 @@
+{
+    "doctype": "Report",
+    "name": "Book Inventory Status",
+    "report_name": "Book Inventory Status",
+    "ref_doctype": "Book",
+    "report_type": "Script Report",
+    "is_standard": "Yes",
+    "module": "Library Management",
+    "add_total_row": 0,
+    "apply_user_permissions": 0
+}
+

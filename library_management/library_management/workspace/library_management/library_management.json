@@ -1,0 +1,126 @@
+{
+ "charts": [
+  {
+   "chart_name": "Grouped By Based On Book Status",
+   "label": "Grouped By Based On Book Status"
+  },
+  {
+   "chart_name": "Grouped By Based On Book Title",
+   "label": "Grouped By Based On Book Title"
+  }
+ ],
+ "content": "[{\"id\":\"Ou4cWuLwIF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Management</span>\",\"col\":12}},{\"id\":\"37M7UQk-lD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Grouped By Based On Book Title\",\"col\":12}},{\"id\":\"ytN44-5XMD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Grouped By Based On Book Status\",\"col\":12}},{\"id\":\"AFCkAT3Rg_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Book Title\",\"col\":3}},{\"id\":\"1XE9LN0Xz-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Books\",\"col\":3}},{\"id\":\"1e25g9tCSd\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Books Available\",\"col\":3}},{\"id\":\"8HO06uGaV-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Books Issued\",\"col\":3}},{\"id\":\"jn-mZ0FDDV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Lost and Damaged Books\",\"col\":3}},{\"id\":\"gQRl2ibORt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Librarian\",\"col\":3}},{\"id\":\"A9aw0M3Xip\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Students\",\"col\":3}},{\"id\":\"Ayk8O0bc1T\",\"type\":\"card\",\"data\":{\"card_name\":\"Your Shortcuts\",\"col\":4}},{\"id\":\"s6ftYvnkMj\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Masters\",\"col\":4}}]",
+ "creation": "2025-06-27 08:49:07.740792",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Library Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Your Shortcuts",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Book Issue",
+   "link_count": 0,
+   "link_to": "Book Issue",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Book Return",
+   "link_count": 0,
+   "link_to": "Book Return",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports & Masters",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Book Balance Report",
+   "link_count": 0,
+   "link_to": "Book Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Book Inventory Status",
+   "link_count": 0,
+   "link_to": "Book Inventory Status",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-06-27 19:25:03.796900",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Management",
+ "number_cards": [
+  {
+   "label": "Total Lost and Damaged Books",
+   "number_card_name": "Total Lost and Damaged Books"
+  },
+  {
+   "label": "Total Book Title",
+   "number_card_name": "Total Book Title Card"
+  },
+  {
+   "label": "Librarian",
+   "number_card_name": "Librarian"
+  },
+  {
+   "label": "Total Books",
+   "number_card_name": "Total Books"
+  },
+  {
+   "label": "Students",
+   "number_card_name": "Total Student"
+  },
+  {
+   "label": "Books Issued",
+   "number_card_name": "Total Books Issued"
+  },
+  {
+   "label": "Books Available",
+   "number_card_name": "Total Book Available"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Library Management"
+}

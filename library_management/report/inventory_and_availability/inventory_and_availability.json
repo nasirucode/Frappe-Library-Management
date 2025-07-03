@@ -1,0 +1,8 @@
+{
+    "report_name": "Inventory and Availability",
+    "ref_doctype": "Book",
+    "report_type": "Script Report",
+    "is_standard": "Yes",
+    "doctype": "Book",
+    "module": "Library Management"
+}

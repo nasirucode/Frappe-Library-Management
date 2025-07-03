@@ -1,0 +1,46 @@
+{
+ "chart_name": "Grouped By Based On Book Title",
+ "chart_type": "Report",
+ "creation": "2025-06-27 17:37:49.307003",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{\"show_individual_books\":0}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-06-27 17:38:47.683256",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Grouped By Based On Book Title",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Book Balance",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "book_title",
+ "y_axis": [
+  {
+   "color": "#1241db",
+   "y_field": "total"
+  },
+  {
+   "color": "#29CD42",
+   "y_field": "available"
+  },
+  {
+   "color": "#ED6396",
+   "y_field": "issued"
+  },
+  {
+   "color": "#CB2929",
+   "y_field": "lost_damaged"
+  }
+ ]
+}

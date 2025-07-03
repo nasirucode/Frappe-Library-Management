@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:book_code",
+ "creation": "2025-06-26 13:17:47.388469",
+ "default_view": "Image",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "book_title",
+  "book_code",
+  "column_break_jdnv",
+  "status",
+  "section_break_kete",
+  "isbn",
+  "publisher",
+  "genre",
+  "cover_image",
+  "column_break_gyyf",
+  "publication_date",
+  "edition",
+  "sub_genre",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "book_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Book Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "cover_image",
+   "fieldtype": "Attach Image",
+   "label": "Cover Image"
+  },
+  {
+   "fieldname": "column_break_gyyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nAvailable\nIssued\nDamaged\nLost",
+   "reqd": 1
+  },
+  {
+   "fieldname": "book_title",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Book Title",
+   "options": "Book Title"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fetch_from": "book_title.isbn",
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ISBN",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_jdnv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_kete",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "book_title.publication_date",
+   "fieldname": "publication_date",
+   "fieldtype": "Data",
+   "label": "Publication Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "book_title.publisher",
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "book_title.edition",
+   "fieldname": "edition",
+   "fieldtype": "Data",
+   "label": "Edition",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "book_title.genre",
+   "fieldname": "genre",
+   "fieldtype": "Data",
+   "label": "Genre",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "book_title.sub_genre",
+   "fieldname": "sub_genre",
+   "fieldtype": "Data",
+   "label": "Sub Genre",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "cover_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-27 18:12:41.678922",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Book",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "book_title",
+ "track_changes": 1
+}

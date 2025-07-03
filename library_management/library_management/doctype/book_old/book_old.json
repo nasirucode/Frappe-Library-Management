@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:book_code",
+ "creation": "2025-06-26 19:55:16.073820",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "book_code",
+  "authors",
+  "column_break_gyyf",
+  "title",
+  "status",
+  "section_break_zorm",
+  "isbn",
+  "publisher",
+  "genre",
+  "language",
+  "column_break_nwfy",
+  "publication_date",
+  "edition",
+  "sub_genre",
+  "cover_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "book_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Book Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "authors",
+   "fieldtype": "Table MultiSelect",
+   "label": "Authors",
+   "options": "Book Author"
+  },
+  {
+   "fieldname": "column_break_gyyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nAvailable\nIssued\nDamaged\nLost"
+  },
+  {
+   "fieldname": "section_break_zorm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ISBN"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Link",
+   "label": "Publisher",
+   "options": "Publisher"
+  },
+  {
+   "fieldname": "genre",
+   "fieldtype": "Link",
+   "label": "Genre",
+   "options": "Genre"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Select",
+   "label": "Language"
+  },
+  {
+   "fieldname": "column_break_nwfy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "publication_date",
+   "fieldtype": "Date",
+   "label": "Publication Date"
+  },
+  {
+   "fieldname": "edition",
+   "fieldtype": "Data",
+   "label": "Edition"
+  },
+  {
+   "fieldname": "sub_genre",
+   "fieldtype": "Link",
+   "label": "Sub-Genre",
+   "options": "SubGenre"
+  },
+  {
+   "fieldname": "cover_image",
+   "fieldtype": "Attach Image",
+   "label": "Cover Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "cover_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-26 19:55:16.073820",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Book Old",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}
