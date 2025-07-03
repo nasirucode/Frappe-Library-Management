@@ -13,11 +13,12 @@
   "last_name",
   "section_break_hchn",
   "email",
+  "username",
+  "column_break_leem",
   "gender",
   "user",
   "column_break_mnvc",
   "mobile",
-  "username",
   "full_name"
  ],
  "fields": [
@@ -98,12 +99,16 @@
    "in_list_view": 1,
    "label": "Full Name",
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_leem",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-28 02:28:16.398951",
+ "modified": "2025-07-03 13:26:35.607683",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Librarian",
@@ -123,7 +128,6 @@
    "write": 1
   }
  ],
- "row_format": "Dynamic",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

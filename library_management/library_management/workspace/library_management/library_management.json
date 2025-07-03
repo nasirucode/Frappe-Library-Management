@@ -1,15 +1,11 @@
 {
  "charts": [
   {
-   "chart_name": "Grouped By Based On Book Status",
-   "label": "Grouped By Based On Book Status"
-  },
-  {
    "chart_name": "Grouped By Based On Book Title",
    "label": "Grouped By Based On Book Title"
   }
  ],
- "content": "[{\"id\":\"Ou4cWuLwIF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Management</span>\",\"col\":12}},{\"id\":\"37M7UQk-lD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Grouped By Based On Book Title\",\"col\":12}},{\"id\":\"ytN44-5XMD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Grouped By Based On Book Status\",\"col\":12}},{\"id\":\"AFCkAT3Rg_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Book Title\",\"col\":3}},{\"id\":\"1XE9LN0Xz-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Books\",\"col\":3}},{\"id\":\"1e25g9tCSd\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Books Available\",\"col\":3}},{\"id\":\"8HO06uGaV-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Books Issued\",\"col\":3}},{\"id\":\"jn-mZ0FDDV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Lost and Damaged Books\",\"col\":3}},{\"id\":\"gQRl2ibORt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Librarian\",\"col\":3}},{\"id\":\"A9aw0M3Xip\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Students\",\"col\":3}},{\"id\":\"Ayk8O0bc1T\",\"type\":\"card\",\"data\":{\"card_name\":\"Your Shortcuts\",\"col\":4}},{\"id\":\"s6ftYvnkMj\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Masters\",\"col\":4}}]",
+ "content": "[{\"id\":\"Ou4cWuLwIF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Management</span>\",\"col\":12}},{\"id\":\"37M7UQk-lD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Grouped By Based On Book Title\",\"col\":12}},{\"id\":\"AFCkAT3Rg_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Book Title\",\"col\":3}},{\"id\":\"1XE9LN0Xz-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Books\",\"col\":3}},{\"id\":\"1e25g9tCSd\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Books Available\",\"col\":3}},{\"id\":\"8HO06uGaV-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Books Issued\",\"col\":3}},{\"id\":\"jn-mZ0FDDV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Lost and Damaged Books\",\"col\":3}},{\"id\":\"gQRl2ibORt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Librarian\",\"col\":3}},{\"id\":\"A9aw0M3Xip\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Students\",\"col\":3}},{\"id\":\"abdTtLWEnC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Overdue Books\",\"col\":3}},{\"id\":\"Ayk8O0bc1T\",\"type\":\"card\",\"data\":{\"card_name\":\"Your Shortcuts\",\"col\":4}},{\"id\":\"s6ftYvnkMj\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Masters\",\"col\":4}}]",
  "creation": "2025-06-27 08:49:07.740792",
  "custom_blocks": [],
  "docstatus": 0,
@@ -81,11 +77,15 @@
    "type": "Link"
   }
  ],
- "modified": "2025-06-27 19:25:03.796900",
+ "modified": "2025-07-03 13:45:57.255777",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Management",
  "number_cards": [
+  {
+   "label": "Overdue Books",
+   "number_card_name": "Overdue Books"
+  },
   {
    "label": "Total Lost and Damaged Books",
    "number_card_name": "Total Lost and Damaged Books"
